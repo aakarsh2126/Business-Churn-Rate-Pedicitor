@@ -1,4 +1,4 @@
-Business-Churn-Rate-Pedicitor
+#Business-Churn-Rate-Pedicitor
 Artificial Neural Network Model to Predict whether the customer will leave the bank or not.
 
 Libraries used
