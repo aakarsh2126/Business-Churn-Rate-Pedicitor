@@ -1,5 +1,5 @@
-# Business-Churn-Rate-Pedicitor
-A python based Artificial Neural Network Model to Predict whether the customer will leave the bank or not.
+Business-Churn-Rate-Pedicitor
+Artificial Neural Network Model to Predict whether the customer will leave the bank or not.
 
 Libraries used
 1. keras(tensorflow as backend)
@@ -10,3 +10,4 @@ Libraries used
 
 This Neural Network model consists of 11 nodes in input layer,2 hidden layers each with 6 nodes and 1 output layer with 1 node.
 The model is trained with 8000 data and is tested in 2000 test data with 83 percent accuracy.
+
