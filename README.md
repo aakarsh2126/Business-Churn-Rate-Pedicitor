@@ -1,4 +1,4 @@
-# Business-Churn-Rate-Pedicitor
+# Business-Churn-Rate-Predictor
 Artificial Neural Network Model to Predict whether the customer will leave the bank or not.
 ## Libraries used
 1. keras(tensorflow as backend)
