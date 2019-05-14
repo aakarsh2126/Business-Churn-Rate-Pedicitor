@@ -19,9 +19,13 @@ This layer consists the first layer of neural network.The number of nodes(neuron
 This layer does the most working of the neural network.It may have one to many layers with each layer having any number of neurons increasing the complexity of the network.The more the complex network is the better is the feature extraction and pattern recognition.
 ### ht=sigma(wt*xt)
 ht=output of the current node
+
 wt=weight matrix for taking input from one node to other
+
 xt=current input vector
+
 sigma=sigmoid activation function.
+
 Having too much layers in hidden layer or too much number of neurons can lead to overfitting problem(good accuracy on train data but bad accuracy on test data).
 To avoid overfitting we add dropout regularization(i.e. ignoring some perecetage of neurons).
 ### Output layer
@@ -30,6 +34,9 @@ This layer is the last layer of the neural network.Generally it consists of one 
 The forward propagation algorithm is passing of data from input layer to output layer.
 ### ht=sigma(wt*xt)
 ht=output of the current node
+
 wt=weight matrix for taking input from one node to other
+
 xt=current input vector
+
 sigma=sigmoid activation function.
