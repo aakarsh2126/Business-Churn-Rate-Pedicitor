@@ -40,3 +40,5 @@ wt=weight matrix for taking input from one node to other
 xt=current input vector
 
 sigma=sigmoid activation function.
+## Backward Propagation
+Once after forward propagation,we need to update the weight matrix corresponding to each layer so that the loss function is minimized.so we move in backward direction from output layer to input layer,updating our weight matrix each time input of given batch size is passed.The batch gradient descent algorithm is used to just the weights.
